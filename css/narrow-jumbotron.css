@@ -1,4 +1,9 @@
 /* Space out content a bit */
+html body {
+    background-color: rgba(0,0,0,1.00);
+
+}
+
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
