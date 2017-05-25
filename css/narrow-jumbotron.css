@@ -14,6 +14,27 @@ body {
   padding-bottom: 1.5rem;
 }
 
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 0.05px;
+  width: auto;
+}
+
+.nav-pills > li > a {
+	  		color: #821D2B!important;
+    background-color: black!important;
+}
+
+.nav-pils >	
+
+.nav-pills > li > a.active {
+		color: black!important;
+    background-color: #821D2B!important;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
