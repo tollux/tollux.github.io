@@ -11,7 +11,7 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/style_contacto.css" rel="stylesheet">
   </head>
 	
 
@@ -22,7 +22,7 @@
         <nav>
           <ul class="nav nav-pills float-right">
             <li class="nav-item">
-              <a class="nav-link active" href="./index.html"><font face="Gill Sans">Inicio <span class="sr-only">(current)</font></span></a>
+              <a class="nav-link" href="./index.html"><font face="Gill Sans">Inicio <span class="sr-only">(current)</font></span></a>
             </li>
  			<li class="nav-item">
               <a class="nav-link" href="./horizonte.html"><font face="Gill Sans">Horizonte</font></a>
@@ -37,7 +37,7 @@
               <a class="nav-link" href="./alebrije.html"><font face="Gill Sans">Alebrije</font></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contacto.html"><font face="Gill Sans">Contacto</font></a>
+              <a class="nav-link active" href="./contacto.html"><font face="Gill Sans">Contacto</font></a>
             </li>
           </ul>
         </nav>
@@ -48,26 +48,33 @@
 
       </div>
 
-      <div class="jumbotron">
-			<h1 class="display-3"><font face="Lucida Grande">Tollux</font></h1>
-       <!-- <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>-->
-      </div>
+     
+<p style="color:white"><font  face="Herculanum"> Julio Alcántara (<a href="mailto:julio.alcantara@egs.edu">julio.alcantara@egs.edu</a>)</font></p>
+    <div class="container">
+  <form action="/action_page.php">
 
-     <center>
-       	<div>
-           <p style = "color:white;"><span style="font-size:0.9em">
-									<font face="Herculanum">
-									Éste es el tiempo en que todo está inmóvil,</br>
-									en silencio y plácido. Todo está silencioso y calmado.</br>
-									 Callada y vacía está la matriz del cielo. </br>
-   
-						<p style = "color:white;text-align:right"><span style="font-size:0.80em">
-					<font face="Herculanum">
-																	Popol Vuh</span>
-						</font></p>
-        </div>
-      </div></center>
-      
+    <label for="fname"><a style="color:white"><font  face="Herculanum"> Nombre</font> </font></a></label>
+    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+
+    <label for="lname"><a style="color:white"><font  face="Herculanum"> Apellidos</font> </font></a</label>
+    <input type="text" id="lname" name="lastname" placeholder="Tus apellidos..">
+
+    <label for="country"><a style="color:white"><font  face="Herculanum"> País</font> </font></a</label>
+    <select id="country" name="country">
+      	<option value="mexico">México</option>
+      	<option value="alemania">Alemania</option>
+      		<option value="estados unidos">Estados Unidos</option>
+    		</select>
+
+    		<label for="subject"><a style="color:white"><font  face="Herculanum">Mensaje</font> </font></a</label>
+    			<textarea id="subject" name="subject" placeholder="Escribe Algo.." style="height:200px"></textarea>
+
+    		<input type="submit" value="Enviar">
+
+  		</form>
+		</div>
+ 
+ </div> 
       <footer class="footer">
         <p>&copy; Tollux  2017</p>
       </footer>

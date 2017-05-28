@@ -1,0 +1,121 @@
+/* Space out content a bit */
+html body {
+    background-color: rgba(0,0,0,1.00);
+
+}
+body {
+	  /* Workaround for some mobile browsers */
+ /* background: url('https://apod.nasa.gov/apod/image/1511/OrionNebula_Hancock_4028.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;*/
+ 	/* The Magic */
+  background-size:cover;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 0.05px;
+  width: auto;
+}
+
+.nav-pills > li > a {
+	  		color: #821D2B!important;
+    background-color: black!important;
+}
+
+
+.nav-pills > li > a.active {
+		color: black!important;
+    background-color: #821D2B!important;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.2rem;
+
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: 46rem;
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	background-image: url("../img/mountains.jpg");
+background-color: #17234E;
+    margin-bottom: 0;`enter code here`
+    min-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+

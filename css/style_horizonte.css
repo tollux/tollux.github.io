@@ -28,7 +28,6 @@ body {
     background-color: black!important;
 }
 
-.nav-pils >	
 
 .nav-pills > li > a.active {
 		color: black!important;
@@ -76,7 +75,7 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-	background-image: url("../img/mountains.jpg");
+	background-image: url("../img/horizonte.jpg");
 background-color: #17234E;
     margin-bottom: 0;`enter code here`
     min-height: 50%;
